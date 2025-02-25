@@ -285,35 +285,12 @@
  </footer>
   <!-- Mobile Menu Toggle Script -->
   <script>
-   const menuBtn = document.getElementById('menu-btn');
-   const mobileMenu = document.getElementById('mobile-menu');
-  
-   menuBtn.addEventListener('click', () => {
-     if (mobileMenu.classList.contains('hidden')) {
-       mobileMenu.classList.remove('hidden');
-       mobileMenu.style.animation = 'slideDown 0.5s forwards';
-     } else {
-       mobileMenu.style.animation = 'slideUp 0.5s forwards';
-       setTimeout(() => {
-         mobileMenu.classList.add('hidden');
-       }, 500);
-     }
-   });
-  
-   // Inject keyframes for mobile menu animations
-   const styleSheet = document.createElement("style");
-   styleSheet.type = "text/css";
-   styleSheet.innerText = `
-     @keyframes slideDown {
-       from { opacity: 0; transform: translateY(-10px); }
-       to { opacity: 1; transform: translateY(0); }
-     }
-     @keyframes slideUp {
-       from { opacity: 1; transform: translateY(0); }
-       to { opacity: 0; transform: translateY(-10px); }
-     }
-   `;
-   document.head.appendChild(styleSheet);
- </script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>
