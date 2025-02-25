@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Letter to the Women of Malolos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    /* Justify all paragraph text */
+    p {
+      text-align: justify;
+    }
+    /* Fade-in animation */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a class="text-2xl font-bold transition duration-300 hover:text-gray-700" href="#">
+        Letter to the Women of Malolos
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="home.html">Home</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="workpage.html">Works</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="analysis.html">Analysis</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="gallery.html">Gallery</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="resource.html">Resource</a>
+      </nav>
+      <div class="md:hidden">
+        <button class="text-gray-600 focus:outline-none" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- Mobile Menu -->
+  <div class="hidden" id="mobile-menu">
+    <nav class="px-4 py-4 bg-white shadow-md">
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="home.html">Home</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="workpage.html">Works</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="analysis.html">Analysis</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="gallery.html">Gallery</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="resource.html">Resource</a>
+    </nav>
+  </div>
+ 
+  <!-- Analysis Section -->
+  <section class="py-16 fade-in" id="analysis-section">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center transition duration-300 transform hover:scale-105">
+        Analysis
+      </h2>
+      <div class="mt-8">
+        <h3 class="text-2xl font-semibold">Themes and Insights</h3>
+        <p class="mt-2 text-gray-600">
+          José Rizal’s letter emphasizes education as a means of empowerment and progress. He advocates for women to extend their knowledge beyond traditional domestic roles, positioning education as a catalyst for social change and personal growth.
+        </p>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+            <img src="women.jpg" alt="Original photo of women studying" class="w-full h-auto mb-4"/>
+            <h3 class="text-xl font-semibold">Women Studying</h3>
+            <p class="mt-2 text-gray-600">
+              Reflects Rizal’s call for education and intellectual empowerment.
+            </p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+            <img src="children.jpg" alt="Original photo of women teaching" class="w-full h-auto mb-4"/>
+            <h3 class="text-xl font-semibold">Women Teaching</h3>
+            <p class="mt-2 text-gray-600">
+              Illustrates the role of educated women in nurturing future generations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Combined Historical Context & Modern Impact Section -->
+  <section class="py-16 fade-in" id="combined-impact">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+        <!-- Left Column: Text Content with Left-Aligned Headers -->
+        <div>
+          <h2 class="text-3xl font-bold mb-4 text-left">
+            Historical Context &amp; Impact
+          </h2>
+          <p class="text-gray-600">
+            Composed on February 22, 1889, the letter was a direct response to Filipino women from Malolos petitioning to establish a night school. In an era marked by colonial oppression and strict gender roles, Rizal’s work broke new ground by advocating for women’s right to education and active participation in societal progress.
+          </p>
+          <p class="mt-4 text-gray-600">
+            The letter not only challenged the status quo but also set the stage for future reforms in both gender equality and education in the Philippines. Its powerful message resonated deeply, encouraging women to break free from traditional limitations and assert their role in national development.
+          </p>
+          <p class="mt-4 text-gray-600">
+            Furthermore, Rizal's writings have been instrumental in inspiring subsequent generations of activists and reformers. His advocacy provided a philosophical foundation for the struggle against colonial rule and continues to influence discussions on social justice and equality today.
+          </p>
+          <h2 class="text-3xl font-bold mt-8 mb-4 text-left">
+            Modern Impact
+          </h2>
+          <p class="text-gray-600">
+            Rizal’s advocacy for education and empowerment transcends time. Today, his message fuels modern feminist movements and inspires educational reforms around the world. The call to challenge traditional gender roles and embrace progressive ideals remains as pertinent as ever.
+          </p>
+          <p class="mt-4 text-gray-600">
+            In contemporary society, the letter is not only celebrated as a historical document but also as a source of inspiration for social and political change. Educators and activists alike reference Rizal's work to advocate for more inclusive policies and equal opportunities.
+          </p>
+          <p class="mt-4 text-gray-600">
+            The ongoing relevance of the letter is evident in academic circles and public discourse, where its themes are continuously reinterpreted in light of current issues. Its legacy endures as a symbol of resistance and a blueprint for progressive thought.
+          </p>
+        </div>
+        <!-- Right Column: Image that Extends Through Both Sections -->
+        <div>
+          <div class="h-full w-full bg-cover bg-center" style="background-image: url('rizalwrite.jpg');"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Additional Information Section -->
+  <section class="py-16 fade-in" id="additional">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center transition duration-300 transform hover:scale-105">
+        Additional Information
+      </h2>
+      <p class="mt-4 text-gray-600">
+        The "Letter to the Women of Malolos" is more than a historical document—it’s a clarion call for progress. Beyond education, the letter touches on themes of self-reliance, cultural pride, and the importance of civic participation. It has been widely studied in academic circles and remains a touchstone in discussions about national identity and social justice.
+      </p>
+      <p class="mt-4 text-gray-600">
+        Over the decades, the letter has been interpreted in various ways, reflecting the evolving nature of feminist thought and the continuing struggle for equal rights. It stands as a reminder that empowerment begins with knowledge and that change is possible when voices unite for a common cause.
+      </p>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6">
+    <div class="container mx-auto px-4 text-center text-gray-600">
+      &copy; 2025 Letter to the Women of Malolos. All rights reserved.
+    </div>
+  </footer>
+ 
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+   
+    menuBtn.addEventListener('click', () => {
+      if (mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.remove('hidden');
+        mobileMenu.style.animation = 'slideDown 0.5s forwards';
+      } else {
+        mobileMenu.style.animation = 'slideUp 0.5s forwards';
+        setTimeout(() => {
+          mobileMenu.classList.add('hidden');
+        }, 500);
+      }
+    });
+   
+    // Inject keyframes for mobile menu animations
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = `
+      @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes slideUp {
+        from { opacity: 1; transform: translateY(0); }
+        to { opacity: 0; transform: translateY(-10px); }
+      }
+    `;
+    document.head.appendChild(styleSheet);
+  </script>
+</body>
+</html>

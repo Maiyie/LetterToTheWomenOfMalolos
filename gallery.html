@@ -1,0 +1,198 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Letter to the Women of Malolos
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&;display=swap" rel="stylesheet"/>
+  <style>
+       html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    /* Justify all paragraph text */
+    p {
+      text-align: justify;
+    }
+    /* Fade-in animation */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a class="text-2xl font-bold transition duration-300 hover:text-gray-700" href="#">
+        Letter to the Women of Malolos
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="home.html">Home</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="workpage.html">Works</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="analysis.html">Analysis</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="gallery.html">Gallery</a>
+        <a class="text-gray-600 hover:text-gray-900 transition duration-300" href="resource.html">Resource</a>
+      </nav>
+      <div class="md:hidden">
+        <button class="text-gray-600 focus:outline-none" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Mobile Menu -->
+  <div class="hidden" id="mobile-menu">
+    <nav class="px-4 py-4 bg-white shadow-md">
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="home.html">Home</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="workpage.html">Works</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="analysis.html">Analysis</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="gallery.html">Gallery</a>
+      <a class="block text-gray-600 hover:text-gray-900 py-2 transition duration-300" href="resource.html">Resource</a>
+    </nav>
+  </div>
+
+   <!-- Gallery Page -->
+   <section class="py-16 bg-gray-100" id="gallery">
+    <div class="container mx-auto px-4">
+     <h2 class="text-3xl font-bold text-center transition duration-300 transform hover:scale-105">
+      Gallery Page
+     </h2>
+     <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Book cover of Noli Me Tangere" class="w-full h-auto mb-4" src="noli.jpg"/>
+       <h3 class="text-xl font-semibold">
+        Noli Me Tangere
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Book cover of El Filibusterismo" class="w-full h-auto mb-4" src="fili.jpg"/>
+       <h3 class="text-xl font-semibold">
+        El Filibusterismo
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Book cover of Letter to the Women of Malolos" class="w-full h-auto mb-4" src="liham.jpg"/>
+       <h3 class="text-xl font-semibold">
+        Letter to the Women of Malolos
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Historical photo of the women of Malolos" class="w-full h-auto mb-4" src="3women.jpg"/>
+       <h3 class="text-xl font-semibold">
+        Women of Malolos
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Historical photo of José Rizal" class="w-full h-auto mb-4" src="jriz.jpg"/>
+       <h3 class="text-xl font-semibold">
+        José Rizal
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+       <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="gov.jpg"/>
+       <h3 class="text-xl font-semibold">
+        Governor-General Valeriano Weyler
+       </h3>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="delpilar.jpg"/>
+        <h3 class="text-xl font-semibold">
+         Marcelo H. del Pilar
+        </h3>
+       </div>
+       <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="19th.jpg"/>
+        <h3 class="text-xl font-semibold">
+          19th Century Philippines
+        </h3>
+       </div>
+       <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="bahay.jpg"/>
+        <h3 class="text-xl font-semibold">
+         Bahay sa Tisa
+        </h3>
+       </div>
+       <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="trad.jpg"/>
+        <h3 class="text-xl font-semibold">
+          Traditional Clothing of Filipinas in the 19th Century
+        </h3>
+       </div>
+       <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="street.jpg"/>
+        <h3 class="text-xl font-semibold">
+          Old Streets of Malolos
+        </h3>
+       </div>
+       <div class="bg-white p-4 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+        <img alt="Historical photo of the 19th century Philippines" class="w-full h-auto mb-4" src="lasolaridad.jpg"/>
+        <h3 class="text-xl font-semibold">
+         La Solidaridad
+        </h3>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+<!-- Footer -->
+<footer class="bg-[#F8F3D9] text-gray-900 py-8">
+
+  <div class="container mx-auto px-4 text-center">
+    <h3 class="text-lg font-semibold">Letter to the Women of Malolos</h3>
+    <p class="text-White-400 text-sm mt-2">
+      A tribute to the courageous women of Malolos and the legacy of José Rizal.
+    </p>
+
+    <div class="mt-6">
+      <p class="text-white-500 text-xs">
+        All pictures and texts are property of their respective owners. All pictures and texts used on this website are for educational purposes only.
+      </p>
+    </div>
+  </div>
+</footer>
+   <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+   
+    menuBtn.addEventListener('click', () => {
+      if (mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.remove('hidden');
+        mobileMenu.style.animation = 'slideDown 0.5s forwards';
+      } else {
+        mobileMenu.style.animation = 'slideUp 0.5s forwards';
+        setTimeout(() => {
+          mobileMenu.classList.add('hidden');
+        }, 500);
+      }
+    });
+   
+    // Inject keyframes for mobile menu animations
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = `
+      @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes slideUp {
+        from { opacity: 1; transform: translateY(0); }
+        to { opacity: 0; transform: translateY(-10px); }
+      }
+    `;
+    document.head.appendChild(styleSheet);
+  </script>
+  </body>
+ </html>
+ 
